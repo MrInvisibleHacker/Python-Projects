@@ -1,0 +1,9 @@
+name = input("Enter your name: ")
+age = int(input("Enter your current age: "))
+fav_sports = input("Enter your favourite sports: ")
+after_10 = age + 10
+
+print(f"Your name is: {name}")
+print(f"Your age is: {age}")
+print(f"Your favourite sports is: {fav_sports}")
+print(f"Your age after 10 years is: {after_10}")
