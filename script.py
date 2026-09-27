@@ -1,10 +1,10 @@
-#project 1
+role = input("Enter your role:")
+password = int(input("Enter your password:"))
 
-name = str(input("Enter your name:"))
-age = int(input("Enter your current age:"))
-fav_sports = str(input("Enter your favourite sports:"))
-after_10 = age + 10
-print("Your name is: %s" %name)
-print("Your age is: %d" %age)
-print("Your favourite sports is: %s" %fav_sports)
-print("Your age after 10 years is:%d" %after_10)
+if role == "admin" and password == 7788:
+    print("Access Granted: Full Control Unlocked!")
+elif role == "tester" and password == 7788:
+    print("Access Granted: Limited Testing Mode")
+else:
+    print("Access Denied: Invalid Credentials!")
+
